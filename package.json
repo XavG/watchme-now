@@ -1,12 +1,7 @@
 {
   "name": "watchme-now",
   "version": "0.1.0",
-  "main": "index.js",
-  "devDependencies": {
-    "babel-plugin-react-transform": "^2.0.2",
-    "babel-preset-stage-0": "^6.5.0",
-    "react-transform-hmr": "^1.0.4"
-  },
+  "private": true,
   "dependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
@@ -36,6 +31,11 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.11.0"
+  },
+  "devDependencies": {
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "react-transform-hmr": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
